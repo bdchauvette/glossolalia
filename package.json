@@ -1,0 +1,53 @@
+{
+  "name": "glossolalia",
+  "version": "0.1.0",
+  "description": "The ES6 to ES5 to ES6 to ES5 transpiler you never knew you wanted",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "glossolalia": "./bin/index.js"
+  },
+  "scripts": {
+    "build": ".bin/glossolalia.js",
+    "test": "tape test/**/*.spec.js"
+  },
+  "dependencies": {
+    "array-to-sentence": "^1.0.4",
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.9.0",
+    "bluebird": "^3.4.0",
+    "commander": "^2.9.0",
+    "get-stdin": "^5.0.1",
+    "jsonfile": "^2.3.1",
+    "lebab": "^1.2.0",
+    "memoizee": "^0.3.10",
+    "merge": "^1.2.0",
+    "mz": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-bdc": "^1.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "tape": "^4.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdchauvette/glossolalia.js.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015",
+    "es5",
+    "transpile",
+    "babel",
+    "lebab"
+  ],
+  "author": "Ben Chauvette <bdchauvette@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdchauvette/glossolalia.js/issues"
+  },
+  "homepage": "https://github.com/bdchauvette/glossolalia.js#readme"
+}
