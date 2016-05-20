@@ -6,7 +6,7 @@ and forth between ES5 and ES6.
 
 Ever wonder what your `babel` output would look like as ES6? Wonder no more!
 
-**Shoutout to [/u/toqy](https://www.reddit.com/user/toqy) for the idea!**
+**Shoutout to [/u/toqy](https://www.reddit.com/r/javascript/comments/4jyphe/lebab_modernizes_your_code_it_does_the_opposite/d3axh5t) for the idea!**
 
 ---
 
